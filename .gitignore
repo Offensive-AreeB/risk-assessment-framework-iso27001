@@ -1,0 +1,27 @@
+# Python caching
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env
+
+# Streamlit
+.streamlit/
+!/.streamlit/config.toml
+
+# Database
+# Do not commit the live database containing credentials or demo records
+data/grc_app.db
+*.db
+*.sqlite3
+
+# Reports
+# Ignore dynamically generated reports, keep the directory structure
+reports/generated/*
+!reports/generated/Sample_Risk_Assessment_Report.pdf
+!reports/generated/Sample_Risk_Assessment_Report.xlsx
+
+# OS generated files
+.DS_Store
+Thumbs.db
